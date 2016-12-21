@@ -1,0 +1,281 @@
+2016/12/13 11:02:00 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: Loading user properties from: C:\Users\garima.singh\apache-jmeter-3.0\apache-jmeter-3.0\bin\user.properties 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: Loading system properties from: C:\Users\garima.singh\apache-jmeter-3.0\apache-jmeter-3.0\bin\system.properties 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: Version 3.0 r1743807 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: java.version=1.8.0_102 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: os.name=Windows 7 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: os.arch=amd64 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: os.version=6.1 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: file.encoding=Cp1252 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: Max memory     =523763712 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: Available Processors =4 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: JMeterHome=C:\Users\garima.singh\apache-jmeter-3.0\apache-jmeter-3.0 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: user.dir  =C:\Users\garima.singh\apache-jmeter-3.0\apache-jmeter-3.0\bin 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: PWD       =C:\Users\garima.singh\apache-jmeter-3.0\apache-jmeter-3.0\bin 
+2016/12/13 11:02:01 INFO  - jmeter.JMeter: IP: 172.16.24.25 Name: DEL1-DHP-28321 FullName: DEL1-DHP-28321.synapse.com 
+2016/12/13 11:02:02 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
+2016/12/13 11:02:02 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2016/12/13 11:02:05 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/12/13 11:02:05 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/12/13 11:02:11 INFO  - org.jmeterplugins.repository.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, jpgc-autostop=0.1, jpgc-sense=2.3, blazemeter-debugger=0.3, netflix-cassandra=0.2-SNAPSHOT, jpgc-cmd=2.1, jpgc-graphs-composite=2.0, jpgc-csl=0.1, jpgc-functions=2.0, custom-soap=1.3, jpgc-casutg=2.1, jpgc-dbmon=0.1, jpgc-graphs-dist=2.0, jpgc-dummy=0.1, jmeter-ftp=3.0, jpgc-filterresults=2.1, jpgc-ffw=2.0, jpgc-ggl=2.0, jmeter-http=3.0, jpgc-httpraw=0.1, jpgc-sts=2.2, jpgc-hadoop=2.0, jpgc-fifo=0.2, jmeter-jdbc=3.0, jpgc-jms=0.2, jmeter-jms=3.0, jpgc-jmxmon=0.2, jmeter-monitors=3.0, jmeter-core=3.0, jpgc-json=2.3, jmeter-junit=3.0, jmeter-java=3.0, jpgc-graphs-vs=2.0, kafkameter=0.2.0, jmeter-ldap=3.0, jpgc-lockfile=0.1, mqtt-sampler=0.0.1-SNAPSHOT, jmeter-mail=3.0, jpgc-mergeresults=2.0, jmeter-mongodb=3.0, jpgc-oauth=0.1, jmeter-native=3.0, jpgc-pde=0.1, jpgc-prmctl=0.3, jpgc-perfmon=2.1, jpgc-plugins-manager=0.10, jpgc-redis=0.1, ssh-sampler=1.1.1-SNAPSHOT, jpgc-webdriver=1.4.0, jpgc-synthesis=2.0, jmeter-tcp=3.0, jpgc-plancheck=2.1, jpgc-tst=2.0, jpgc-udp=0.2, jpgc-csvars=0.1, jmeter-components=3.0, websocket-sampler=1.0.2-SNAPSHOT, jpgc-wsc=0.1, jpgc-xml=0.1, jpgc-xmpp=1.4.0, jpgc-standard=2.0] 
+2016/12/13 11:02:14 WARN  - jmeter.testbeans.BeanInfoSupport: Localized strings not available for bean class kg.apc.jmeter.config.redis.RedisDataSet java.util.MissingResourceException: Can't find bundle for base name kg.apc.jmeter.config.redis.RedisDataSetResources, locale en_US
+	at java.util.ResourceBundle.throwMissingResourceException(Unknown Source)
+	at java.util.ResourceBundle.getBundleImpl(Unknown Source)
+	at java.util.ResourceBundle.getBundle(Unknown Source)
+	at org.apache.jmeter.testbeans.BeanInfoSupport.<init>(BeanInfoSupport.java:126)
+	at kg.apc.jmeter.config.redis.RedisDataSetBeanInfo.<init>(RedisDataSetBeanInfo.java:69)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at com.sun.beans.finder.InstanceFinder.instantiate(Unknown Source)
+	at com.sun.beans.finder.InstanceFinder.find(Unknown Source)
+	at java.beans.Introspector.findExplicitBeanInfo(Unknown Source)
+	at java.beans.Introspector.<init>(Unknown Source)
+	at java.beans.Introspector.getBeanInfo(Unknown Source)
+	at org.apache.jmeter.testbeans.gui.TestBeanGUI.<init>(TestBeanGUI.java:168)
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:488)
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:160)
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:93)
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:156)
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:47)
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:80)
+	at org.apache.jmeter.gui.action.ActionRouter.access$000(ActionRouter.java:40)
+	at org.apache.jmeter.gui.action.ActionRouter$1.run(ActionRouter.java:62)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$500(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+2016/12/13 11:02:15 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2016/12/13 11:02:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/12/13 11:02:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/12/13 11:02:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/12/13 11:02:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2016/12/13 11:02:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/12/13 11:02:15 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2016/12/13 11:02:16 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2016/12/13 11:02:16 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\garima.singh\apache-jmeter-3.0\apache-jmeter-3.0\bin\proxyserver.jks 
+2016/12/13 11:02:16 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement 
+2016/12/13 11:02:16 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_qos] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_at_most_once] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_at_least_once] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_exactly_once] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_client_types] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_blocking_client] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_async_client] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_message_input_type] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_message_input_type_text] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_message_input_type_file] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_qos] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_at_most_once] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_at_least_once] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_exactly_once] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_client_types] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_blocking_client] 
+2016/12/13 11:02:16 WARN  - jmeter.util.JMeterUtils: ERROR! Resource string not found: [mqtt_async_client] 
+2016/12/13 11:02:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.DistributionGraphVisualizer 
+2016/12/13 11:02:17 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/12/13 11:02:17 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/12/13 11:02:17 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/12/13 11:02:17 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/12/13 11:02:17 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.visualizers.SplineVisualizer 
+2016/12/13 12:19:35 INFO  - jmeter.services.FileServer: Default base='C:\Users\garima.singh\apache-jmeter-3.0\apache-jmeter-3.0\bin' 
+2016/12/13 12:19:35 INFO  - jmeter.gui.action.Load: Loading file: C:\Users\garima.singh\Desktop\JMeter Plans\OCR_TIKA_4141_Local.jmx 
+2016/12/13 12:19:35 INFO  - jmeter.services.FileServer: Set new base='C:\Users\garima.singh\Desktop\JMeter Plans' 
+2016/12/13 12:19:35 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/12/13 12:19:35 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/12/13 12:19:35 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.9 
+2016/12/13 12:19:35 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/12/13 12:19:35 INFO  - jmeter.save.SaveService: Loading file: C:\Users\garima.singh\Desktop\JMeter Plans\OCR_TIKA_4141_Local.jmx 
+2016/12/13 12:19:36 INFO  - jmeter.services.FileServer: Set new base='C:\Users\garima.singh\Desktop\JMeter Plans' 
+2016/12/13 12:31:10 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 12:31:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:31:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:31:10 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 12:31:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 12:31:10 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 12:31:10 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 12:31:10 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 12:31:10 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 12:31:10 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 12:31:10 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 12:31:10 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:31:10 INFO  - jmeter.protocol.http.sampler.HTTPJavaImpl: Maximum connection retries = 0 
+2016/12/13 12:32:51 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/12/13 12:32:52 INFO  - jmeter.threads.JMeterThread: Stopping: UploadFileAndExtractData 1-1 
+2016/12/13 12:32:52 WARN  - jmeter.threads.JMeterThread: Interrupting: UploadFileAndExtractData 1-1 sampler: HTTP Request 
+2016/12/13 12:32:52 ERROR - jmeter.protocol.http.sampler.HTTPJavaImpl: readResponse: java.net.SocketException: Socket closed 
+2016/12/13 12:32:52 ERROR - jmeter.protocol.http.sampler.HTTPJavaImpl: Cause: java.net.SocketException: Socket closed 
+2016/12/13 12:32:52 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 12:32:52 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 12:32:52 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 12:32:52 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:32:52 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 12:33:54 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 12:33:54 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:33:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 12:33:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 12:33:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 12:33:54 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 12:33:54 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 12:33:54 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 12:33:54 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 12:33:54 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 12:33:54 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:33:57 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 12:33:57 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 12:33:57 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 12:33:57 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:33:57 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 12:34:27 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 12:34:27 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:34:27 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 12:34:27 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 12:34:27 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 12:34:27 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 12:34:27 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 12:34:27 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 12:34:27 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 12:34:27 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 12:34:27 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:34:30 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 12:34:30 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 12:34:30 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 12:34:30 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:34:30 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 12:37:52 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 12:37:52 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:37:52 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 12:37:53 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 12:37:53 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 12:37:53 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 12:37:53 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 12:37:53 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 12:37:53 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 12:37:53 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 12:37:53 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:37:55 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 12:37:55 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 12:37:55 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 12:37:55 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:37:55 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 12:38:54 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 12:38:54 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:38:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 12:38:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 12:38:54 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 12:38:54 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 12:38:54 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 12:38:54 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 12:38:54 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 12:38:54 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 12:38:54 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:38:58 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 12:38:58 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 12:38:58 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 12:38:58 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:38:58 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 12:39:47 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 12:39:47 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:39:47 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 12:39:47 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 12:39:47 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 12:39:47 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 12:39:47 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 12:39:47 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 12:39:47 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 12:39:47 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 12:39:47 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:39:49 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 12:39:49 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 12:39:49 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 12:39:49 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:39:49 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 12:40:16 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 12:40:16 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 12:40:16 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 12:40:16 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 12:40:16 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 12:40:16 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 12:40:16 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 12:40:16 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 12:40:16 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 12:40:16 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 12:40:16 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:40:18 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 12:40:18 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 12:40:18 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 12:40:18 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 12:40:18 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 13:32:54 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 13:32:54 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 13:32:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 13:32:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 13:32:55 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 13:32:55 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 13:32:55 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 13:32:55 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 13:32:55 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 13:32:55 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 13:32:55 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\expected.csv 
+2016/12/13 13:32:55 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 13:33:37 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 13:33:37 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 13:33:37 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 13:33:37 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\expected.csv 
+2016/12/13 13:33:37 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 13:33:37 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 13:37:56 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 13:37:56 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 13:37:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 13:37:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 13:37:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 13:37:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 13:37:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 13:37:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 13:37:56 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 13:37:56 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 13:37:56 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\expected.csv 
+2016/12/13 13:37:56 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 13:38:01 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 13:38:01 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 13:38:01 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 13:38:01 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\expected.csv 
+2016/12/13 13:38:01 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 13:38:01 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/13 13:39:46 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/12/13 13:39:46 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/12/13 13:39:46 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/12/13 13:39:46 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : UploadFileAndExtractData 
+2016/12/13 13:39:46 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group UploadFileAndExtractData. 
+2016/12/13 13:39:46 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/12/13 13:39:46 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/12/13 13:39:46 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/12/13 13:39:46 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/12/13 13:39:46 INFO  - jmeter.threads.JMeterThread: Thread started: UploadFileAndExtractData 1-1 
+2016/12/13 13:39:46 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\expected.csv 
+2016/12/13 13:39:46 INFO  - jmeter.services.FileServer: Stored: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 13:39:48 INFO  - jmeter.threads.JMeterThread: Thread is done: UploadFileAndExtractData 1-1 
+2016/12/13 13:39:48 INFO  - jmeter.threads.JMeterThread: Thread finished: UploadFileAndExtractData 1-1 
+2016/12/13 13:39:48 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/12/13 13:39:48 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\expected.csv 
+2016/12/13 13:39:48 INFO  - jmeter.services.FileServer: Close: C:\Users\garima.singh\Desktop\JMeter Plans\FilesForTIKA.csv 
+2016/12/13 13:39:48 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/12/16 15:04:16 INFO  - jmeter.services.FileServer: Set new base='C:\Users\garima.singh\Desktop\JMeter Plans' 
